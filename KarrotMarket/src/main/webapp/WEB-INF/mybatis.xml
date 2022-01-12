@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+
+	<!-- Mapper에서 사용하는 자료형에 대한 별칭 만드는 작업 -->
+	
+	<!-- <typeAliases>
+		<typeAlias type="com.test.mybatis.MyBatisDTO" alias="dto"/>
+		HashMap 은 기본적으로 정의 되어 있다
+	</typeAliases> -->
+	
+	
+	<typeAliases>
+	
+		<typeAlias type="com.spring.hobbylovey.mypage.SignUpClassDTO" alias="sucdto" />
+		<typeAlias type="com.spring.hobbylovey.admin.AdminDTO" alias="admindto" />
+		<typeAlias type="com.spring.hobbylovey.auth.AuthDTO" alias="authdto" />
+		<typeAlias type="com.spring.hobbylovey.lecture.ClassListDTO" alias="lcldto"/>
+		<typeAlias type="com.spring.hobbylovey.host.ClassDTO" alias="hostdto"/>
+		<typeAlias type="com.spring.hobbylovey.host.ClassOptionDTO" alias="optiondto"/>
+		<typeAlias type="com.spring.hobbylovey.host.MyClassListDTO" alias="myclasslistdto"/>
+		<typeAlias type="com.spring.hobbylovey.notice.NoticeDTO" alias="noticedto"/>
+		<typeAlias type="com.spring.hobbylovey.host.SalesDTO" alias="salesdto"/>
+	
+		<typeAlias type="com.spring.hobbylovey.lecture.ClassDetailDTO" alias="cddto"/>
+        <typeAlias type="com.spring.hobbylovey.lecture.HostDTO" alias="hdto"/>
+        <typeAlias type="com.spring.hobbylovey.lecture.ReviewListDTO" alias="rldto"/>
+        <typeAlias type="com.spring.hobbylovey.lecture.ClassImageDTO" alias="cidto"/>
+		
+        <typeAlias type="com.spring.hobbylovey.lecture.ClassOptionDTO" alias="codto"/>
+	
+			
+	
+	</typeAliases>
+
+   
+</configuration>

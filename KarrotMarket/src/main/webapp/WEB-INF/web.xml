@@ -27,7 +27,7 @@
 	
 	<servlet-mapping>
 		<servlet-name>appServlet</servlet-name>
-		<url-pattern>*.karrot</url-pattern>
+		<url-pattern>*.action</url-pattern>
 	</servlet-mapping>
 
 	<!-- POST 인코딩 처리 -->
@@ -42,7 +42,7 @@
 	
 	<filter-mapping>
 		<filter-name>encodingFilter</filter-name>
-		<url-pattern>*.karrot</url-pattern>
+		<url-pattern>*.action</url-pattern>
 	</filter-mapping>
 	
 	<!-- 사진 업로드 크기 제한 -->

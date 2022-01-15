@@ -34,7 +34,7 @@
 	 <!-- MyBatis 설정 관렬 객체 -->
 	 <bean id="sessionfactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 	 	<property name="dataSource" ref="datasource"></property>
-	 	<property name="mapperLocations" value="classpath*:com/spring/hobbylovey/mapper/*.xml"></property>
+	 	<property name="mapperLocations" value="classpath*:com/market/karrot/mapper/*.xml"></property>
 	 	<property name="configLocation" value="/WEB-INF/mybatis.xml"></property>
 	 </bean>
 	 

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap" rel="stylesheet">
+    
+    <title>Karrot Market</title>
+    <style>
+        html, body{
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            border: 1px solid red;
+            width: 360px;
+            height: 640px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #btn {
+            width: 100%;
+        }
+        #btn button {
+            width: 340px;
+            background-color: #FF931E;
+            border: 0;
+            height: 50px;
+            border-radius: 5px;
+            font-size: 24px;
+            color: white;
+            cursor: pointer;
+            margin: 0px 10px;
+        }
+        .textbox {
+            width: 100%;
+            height: 25px;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 18px;
+        }
+        .text {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 18px;
+            margin: 15px 0px;
+        }
+        #box {
+            
+            width: 280px;
+            margin: 20px auto 50px auto;
+            
+        }
+        #title {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        #dupTest {
+            background-color: white;
+            border: none;
+            color: #FF931E;
+            font-family: 'Noto Sans KR', sans-serif;
+            cursor: pointer;
+        }
+        #emailbox {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <section>
+        <div id="box">
+            <div id="title" class="text">회원가입</div>
+            <div id="emailbox"class="text">
+                <span>이메일(ID)</span>
+                <button id="dupTest">이메일 중복 검사</button>
+            </div>
+            <div> <input class="textbox" type="text"> </div>
+            <div class="text">비밀번호(PW)</div>
+            <div> <input class="textbox" type="text"> </div>
+            <div class="text">이름</div>
+            <div> <input class="textbox" type="text"> </div>
+            <div class="text">핸드폰번호</div>
+            <div> <input class="textbox" type="text"> </div>
+            <div class="text">닉네임</div>
+            <div> <input class="textbox" type="text"> </div>
+        </div>
+        <div id="btn">
+            <button>가입하기</button>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        $('#btn').click(function(){
+            location.href = "#!";
+        });
+    </script>
+
+</body>
+
+</html>

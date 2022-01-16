@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap" rel="stylesheet">
+    
+    <title>Karrot Market</title>
+    <style>
+        html, body{
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        #page{
+            border: 1px solid red;
+            width: 360px;
+            height: 640px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #header {
+            position: fixed;
+            top: 0;
+            /* border: 1px solid seagreen; */
+            width: 360px;
+            height: 70px;
+        }
+        #content {
+            position: absolute;
+            top:72px;
+            /* border: 1px solid yellow; */
+            width: 100%;
+        }
+        #footer {
+            position: fixed;
+            bottom: 0;
+            border: 1px solid blue;
+            width: 360px;
+            height: 80px;
+        }
+        .font {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 18px;
+        }
+        #headerBox {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #DDD;
+        }
+        #title {
+            /* border: 1px solid blue; */
+            width: 250px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            font-size: 21px;
+            padding-left: 10px;
+        }
+        #headerIconBox {
+            /* border: 1px solid salmon;  */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 75px;
+            padding: 0 10px;
+        }
+        #search, #category {
+            width: 30px;
+        }
+
+        #footer #home img {
+            width: 45px;
+        }
+    </style>
+</head>
+<body>
+    
+    <section id="page">
+        <section id="header">
+            <div id="headerBox">
+                <div id="title" class="font">개발자님의 동네</div>
+                <div id="headerIconBox">
+                    <img id="search" src="/resources/images/icon2.png">
+                    <img id="category" src="/resources/images/menu.png">
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <!-- <div id="contentBox">
+                <div id="productBox">
+                    <div id="img">
+                        <img src="/resources/images/thumbnail1.png">
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <section id="footer">
+            <div id="home">
+                <img src="/resources/images/home.png">
+                <div class="font">홈</div>
+            </div>
+            <div id="mypage">
+                <img src="/resources/images/icon5.png">
+                <div class="font">나의 당근</div>
+            </div>
+        </section> 
+    </section>
+    <script type="text/javascript">
+       
+    </script>
+
+</body>
+
+</html>
